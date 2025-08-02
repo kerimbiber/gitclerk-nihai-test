@@ -1,12 +1,23 @@
-def selamla(isim):
-    # Selamlama mesajı artık büyük harfle döndürülüyor
-    return f"MERHABA, {isim}!"
+class Hesaplayici:
+    """
+    Bu sınıf, çeşitli hesaplama ve selamlama işlemleri yapar.
+    """
+    def __init__(self):
+        pass
 
-def topla(a, b):
-    return a + b
+    def selamla(self, isim):
+        # Selamlama mesajı artık büyük harfle döndürülüyor
+        return f"MERHABA, {isim}!"
 
-mesaj = selamla("Yapay Zeka")
+    def topla(self, a, b):
+        return a + b
+
+# Sınıftan bir nesne oluşturuyoruz
+hesap_makinesi = Hesaplayici()
+
+# Metotları nesne üzerinden çağırıyoruz
+mesaj = hesap_makinesi.selamla("Yapay Zeka")
 print(mesaj)
 
-sonuc = topla(5, 10)
+sonuc = hesap_makinesi.topla(5, 10)
 print(f"5 + 10 = {sonuc}")
