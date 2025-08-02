@@ -9,8 +9,8 @@ class Hesaplayici:
         # Selamlama mesajı artık büyük harfle döndürülüyor
         return f"MERHABA, {isim}!"
 
-    def topla(self, a, b):
-        return a + b
+    def topla(self, a, c):
+        return a + c
 
 # Sınıftan bir nesne oluşturuyoruz
 hesap_makinesi = Hesaplayici()
