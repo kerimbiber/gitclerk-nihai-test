@@ -1,4 +1,6 @@
 def selamla(isim):
-    print(f"Merhaba, {isim}!")
+    # Fonksiyon artık bir değer döndürüyor
+    return f"Merhaba, {isim}!"
 
-selamla("Dünya")
+mesaj = selamla("Yapay Zeka")
+print(mesaj)
