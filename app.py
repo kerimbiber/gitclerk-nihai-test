@@ -21,3 +21,5 @@ print(mesaj)
 
 sonuc = hesap_makinesi.topla(5, 10)
 print(f"5 + 10 = {sonuc}")
+
+//Buraya yeni bir fonksiyon eklenecek.
