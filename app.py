@@ -17,8 +17,9 @@ def main():
     try:
         sayi1 = int(args.sayi1)
         sayi2 = int(args.sayi2)
-        sonuc = topla(sayi1, sayi2)
-        print(f"Sonuç: {sonuc}")
+        # SADECE BU SATIRLAR DEĞİŞTİ
+        toplam = topla(sayi1, sayi2)
+        print(f"Sonuç: {toplam}")
     except ValueError:
         print("Hata: Lütfen sadece sayısal değerler girin.", file=sys.stderr)
         sys.exit(1)
