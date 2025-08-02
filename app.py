@@ -1,6 +1,6 @@
 def selamla(isim):
-    # Fonksiyon artık bir değer döndürüyor
-    return f"Merhaba, {isim}!"
+    # Selamlama mesajı artık büyük harfle döndürülüyor
+    return f"MERHABA, {isim}!"
 
 def topla(a, b):
     return a + b
