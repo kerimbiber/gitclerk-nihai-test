@@ -21,7 +21,7 @@ def main():
         toplam = topla(sayi1, sayi2)
         print(f"Sonuç: {toplam}")
     except ValueError:
-        print("Hata: Lütfen sadece sayısal değerler girin.", file=sys.stderr)
+        print("Hata: Reyhan Biber", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":
